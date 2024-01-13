@@ -1,0 +1,39 @@
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#terminal {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 600px;
+}
+
+#input {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+#output {
+    margin-bottom: 10px;
+}
+
+.ascii-art {
+    text-align: center; 
+    margin-bottom: 20px;
+    color: #fff; 
+}
